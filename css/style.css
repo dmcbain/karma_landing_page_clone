@@ -65,10 +65,13 @@ div {
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+	width: 100%;
+	z-index: 9999;
 
 }
 .top-navigation > .content {
-    width: 757px;
+    max-width: 757px;
     height: 70px;
     margin: 0 auto;
     padding: 0px 15px;
@@ -150,4 +153,34 @@ button:hover {
 background-color: #d9400e;
 border-color: #cf3d0e;
 cursor: pointer;
+}
+
+
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 80px;
+}
+.cases .content {
+    margin-top: 126px;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+}
+.cases h2 {
+    font-size: 44px;
+    margin: 26px 0 50px;
+    font-weight: 300;
+}
+.cases .devices li {
+    width: 33.3333333%;
+    display: inline-block;
+    margin-right: -4px;
+}
+
+ 
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 40px 0px 30px;
 }
