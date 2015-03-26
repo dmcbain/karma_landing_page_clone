@@ -39,7 +39,7 @@ body {
 
 line-height: 1;
 
-background-color: LightGray;
+background-color: white;
 font-family: 'Roboto', sans-serif;
 
 }
@@ -60,7 +60,7 @@ table {
 }
 
 div {
-    border: 1px solid Chocolate;
+    border: 1px solid white;
 }
 /* Navigation Section */
 .top-navigation {
@@ -184,3 +184,53 @@ cursor: pointer;
     font-size: 25px;
     margin: 40px 0px 30px;
 }
+
+
+.social {
+background-color: #fff;
+text-align: center;
+margin-bottom: 136px;
+}
+
+.social .content {
+margin: 0 auto;
+max-width: 50em;
+padding: 0 15px;
+width: 60%;
+}
+
+.social hr {
+border: 0;
+border-top: 1px solid #eaebec;
+margin: 21px 0;
+}
+
+.social .icons li {
+border-radius: 20px;
+width: 40px;
+height: 40px;
+display: inline-block;
+margin: 20px 5px;
+border: 1px solid #eaebec;
+padding: 10px 0;
+text-align: center;
+}
+
+.social .fa-twitter {
+color: #55acee;
+}
+
+.fa-facebook {
+color: #4c66a4;
+}
+
+.fa-instagram {
+color: #3f729b;
+}
+
+.copy {
+font-size: 0.9em;
+font-weight: 300;
+color: #838994;
+}
+
