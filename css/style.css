@@ -39,7 +39,7 @@ body {
 
 line-height: 1;
 
-background-color: white;
+/*background-color: LightGray;*/
 font-family: 'Roboto', sans-serif;
 
 }
@@ -60,7 +60,7 @@ table {
 }
 
 div {
-    border: 1px solid white;
+    /*border: 1px solid Chocolate;*/
 }
 /* Navigation Section */
 .top-navigation {
